@@ -23,3 +23,6 @@ def update_output(n_clicks, input1, input2):
         return ''
     else:
         return f'结果是：{float(input1) + float(input2)}'
+    
+if __name__ == '__main__':
+    app.run_server(debug=True)
